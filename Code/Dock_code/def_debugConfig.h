@@ -1,0 +1,5 @@
+#pragma once
+
+#define DEBUG_MODE_ACTIVE		0
+#define SERIAL_OUTPUT_ENABLED	0
+#define CALIBRATION_MODE_ACTIVE	0

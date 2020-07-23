@@ -1,0 +1,11 @@
+Atmega328P:
+L: 0xFF
+H: 0xD6
+E: 0xFD
+http://www.engbedded.com/fusecalc?P=ATmega328P&V_LOW=0xFF&V_HIGH=0xD6&V_EXTENDED=0xFD&O_HEX=Apply+values
+
+Atmega328PB:
+L: 0xFF
+H: 0xD7
+E: 0xF5
+(Not available in the engbedded website)

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Centerbody_code.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.Centerbody_code.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="robot_centerbody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Tests\Test Rig\Code\FA3D_Test_Endurance_ActuatedHoop\SimplifiedTest\HX711.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dock_Code\Dock_Code\simple_helper_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dock_Code\Dock_Code\def_commInterpretation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dock_Code\Dock_Code\def_friendly_names.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dock_Code\Dock_Code\def_status_messages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inputs_cb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logic_cb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="outputs_cb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="startup_cb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="def_calib_cb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="def_pins_cb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="communications_cb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="def_behaviorConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dock_Code\Dock_Code\def_decode_comm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_cb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="def_names.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Centerbody_Calibration_Code\def_EEPROM_addresses_cb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dock_Code\Dock_Code\EEPROM_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="do_outputs_cb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Dock_Calibration_Code\Dock_Calibration_Code\serial_helper_programs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes_cb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cb_phases.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vectorMathFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config_centerbody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="robot_centerbody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Tests\Test Rig\Code\FA3D_Test_Endurance_ActuatedHoop\SimplifiedTest\HX711.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dock_Code\Dock_Code\simple_helper_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="communications_cb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inputs_cb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logic_cb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="outputs_cb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="startup_cb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_cb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dock_Code\Dock_Code\EEPROM_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="do_outputs_cb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Dock_Calibration_Code\Dock_Calibration_Code\serial_helper_programs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vectorMathFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

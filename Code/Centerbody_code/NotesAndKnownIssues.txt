@@ -1,0 +1,2 @@
+robot.stepDirection is uint and should be int. Basically everything that uses this is wrong but somehow the code still works
+checkYN() should be made to use timeout_s and only return false when 'n' is pressed (loop until done)
