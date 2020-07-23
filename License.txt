@@ -9,10 +9,11 @@ of these design materials, code, and associated documentation files (the "Design
 to deal in the Design with restriction. Any use for noncommercial personal or 
 noncommercial academic research is allowed (including the rights to use, copy, 
 modify, merge, publish, distribute the Design) provided that a copy of this 
-license is included with any existing or derivative Design. Any derivative 
-Design must be made freely available and must come with a copy of this license. 
-For any other use of this Design (including those in a commercial or closed-
-source capacity, please contact the copyright holder.
+license is included with any existing or derivative Design, and that proper
+attribution in any published works is given. Any derivative Design must be
+made freely available and must come with a copy of this license. For any other 
+use of this Design (including those in a commercial or closed-source capacity,
+please contact the copyright holder.
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
